@@ -5,7 +5,7 @@ export const projects = [
     title: "RECS Homes",
     description:
       "A modern dashboard for managing real estate buildings and properties construction.",
-    tags: ["React", "TailwindCSS", "Node.js"],
+    tags: ["React", "TailwindCSS", "Node.js", "Express", "Postgres"],
     image: "/recs.png",
     type: "Website",
   },
@@ -13,7 +13,7 @@ export const projects = [
     title: "Lumle Restaurant and Bar",
     description:
       "Full-featured online restaurant and bar website with table reservation and menu management along with gift card purchase and payment integration.",
-    tags: ["Next.js", "Postgres", "Paytrail"],
+    tags: ["Next.js", "Postgres", "Paytrail", "Node.js", "Express"],
     image: "/lumle.png",
     type: "Website",
   },
@@ -21,7 +21,7 @@ export const projects = [
     title: "National PhysioTherapy and Rehabilitation Center",
     description:
       "Full-featured online physiotherapy and rehabilitation center website with appointment booking and patient management.",
-    tags: ["Next.js", "Postgres", "Node.js"],
+    tags: ["Next.js", "Postgres", "Node.js", "Express"],
     image: "/physio.png",
     type: "Website",
   },
@@ -29,7 +29,7 @@ export const projects = [
     title: "Peace Destination Nepal",
     description:
       "Full-featured online travel agency website with travel bookings and blogs.",
-    tags: ["Next.js", "Postgres", "Node.js"],
+    tags: ["Next.js", "Postgres", "Node.js", "Express"],
     image: "/pdn.png",
     type: "Website",
   },
@@ -45,7 +45,7 @@ export const projects = [
     title: "Njangi Biz App",
     description:
       "Full-featured online shopping platform with product catalog, shopping cart.",
-    tags: ["React Native", "Node.js"],
+    tags: ["React Native", "Node.js", "Express", "Postgres"],
     image: "/njangi.png",
     type: "Mobile Application",
   },
@@ -53,7 +53,7 @@ export const projects = [
     title: "Needy Store",
     description:
       "Full-featured online shopping platform with product catalog, and shopping cart.",
-    tags: ["React", "Next.js", "Postgres"],
+    tags: ["React", "Next.js", "Postgres", "Node.js", "Express"],
     image: "/needy.png",
     type: "Website",
   },
@@ -61,11 +61,24 @@ export const projects = [
     title: "KPG Industrial",
     description:
       "Designed to showcase the services and expertise of KPG Industrial, a trusted engineering and industrial solutions provider in Nepal, which offers high-quality LPG solutions, gas plant engineering, and machine maintenance services.",
-    tags: ["React", "Next.js", "Postgres"],
+    tags: ["React", "Next.js", "Postgres", "Node.js", "MongoDB"],
     image: "/kpg.png",
     type: "Website",
+  },
+  {
+    title: "Z-Wallet",
+    description: "The system enables users to top up credit, make purchases (e.g., digital games) with PIN/serial generation, and expose APIs for external websites to showcase and sell products with automatic credit deduction and usage-based billing",
+    tags: ["Node.js", "Postgres", "Nextjs" ,"Express", "E-sewa", "Khalti", "FonePay"],
+    image: "/digital-game-api.png",
+    type: "Website",
+  } , 
+  {
+    title: "ZAuth",
+    description: "An npm package for authentication and authorization along with user management used in projects developed by ZLS.",
+    tags: ["Node.js", "Postgres", "Express", "TypeScript"],
+    image: "/z-auth.png",
+    type: "NPM Package",
   }
-
 
 ];
 
