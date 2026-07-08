@@ -15,9 +15,9 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="flex items-center gap-4" >
-                    <ContactInfoItem icon={<EmailIcon />} title="Email" value="ritikashrestha05@gmail.com" link="mailto:ritikashrestha058@gmail.com" />
-                    <ContactInfoItem icon={<GitHubIcon />} title="GitHub" value="github.com/ritikash058" link="https://github.com/ritikash058" />
-                    <ContactInfoItem icon={<LinkedInIcon />} title="LinkedIn" value="linkedin.com/in/ritika-shresth" link="https://linkedin.com/in/ritika-shresth" />
+                    <ContactInfoItem icon={<EmailIcon />}  value="ritikashrestha05@gmail.com" link="mailto:ritikashrestha058@gmail.com" />
+                    <ContactInfoItem icon={<GitHubIcon />}  value="github.com/ritikash058" link="https://github.com/ritikash058" />
+                    <ContactInfoItem icon={<LinkedInIcon />}  value="linkedin.com/in/ritika-shresth" link="https://linkedin.com/in/ritika-shresth" />
                 </div>
             </div>
         </footer>

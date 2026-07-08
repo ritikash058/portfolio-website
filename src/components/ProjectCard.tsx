@@ -1,7 +1,7 @@
 export default function ProjectCard({ title, description, tags, image , type}: any) {
   return (
     <div className="bg-gray-900 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 relative">
-      {/* Banner on the right side */}
+      {/* Banner on the right side */}  
       <div className="absolute top-0 right-0 bg-blue-500 text-white px-3 py-1 text-xs font-semibold rounded-l-lg">
         {type}
       </div>

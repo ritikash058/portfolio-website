@@ -10,8 +10,7 @@ const About = () => {
                 </h2>
                 <div className="w-20 h-1 bg-indigo-600 mx-auto mb-6"></div>
                 <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                I'm a passionate software engineer with experience building web
-                applications and solving complex technical challenges.
+                I&apos;m a passionate software engineer with experience building web and mobile applications and solving complex technical challenges.
                 </p>
             </div>
 
@@ -21,7 +20,7 @@ const About = () => {
                     Professional Background
                 </h3>
                 <p className="text-gray-600 mb-4">
-                    With over 2 years of experience in software development, I've
+                    With over 3 years of experience in software development, I&apos;ve
                     worked on diverse projects ranging from enterprise
                     applications to innovative startups. My journey began with a
                     strong foundation in computer science fundamentals, which has
@@ -35,7 +34,7 @@ const About = () => {
                     value to users.
                 </p>
                 <p className="text-gray-600">
-                    When I'm not coding, you can find me exploring the latest tech
+                    When I&apos;m not coding, you can find me exploring the latest tech
                     trends, contributing to open-source projects, or mentoring
                     aspiring developers.
                 </p>
@@ -45,12 +44,14 @@ const About = () => {
                     Technical Skills
                 </h3>
                 <div className="space-y-6">
-                    <SkillBar label="JavaScript" percentage="95" />
-                    <SkillBar label="React / Next.js" percentage="90" />
-                    <SkillBar label="Node.js / Express" percentage="85" />
-                    <SkillBar label="HTML / CSS" percentage="95" />
-                    <SkillBar label="Python" percentage="60" />
-                    <SkillBar label="Cloud (AWS)" percentage="30" />
+                    <SkillBar label="JavaScript / TypeScript" />
+                    <SkillBar label="React / Next.js" />
+                    <SkillBar label="React Native" />
+                    <SkillBar label="Node.js / Express" />
+                    <SkillBar label="HTML / CSS" />
+                    <SkillBar label="Python" />
+                    <SkillBar label="Cloud (AWS)" />
+                    <SkillBar label="Git" />
                 </div>
                 </div>
             </div>

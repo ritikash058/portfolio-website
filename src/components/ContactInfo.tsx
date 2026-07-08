@@ -1,4 +1,4 @@
-export default function ContactInfoItem({ icon, title, value, link }: any) {
+export default function ContactInfoItem({ icon, value, link }: { icon: React.ReactNode; value: string; link: string }) {
   return (
     <div className="flex items-start group relative">
       <a

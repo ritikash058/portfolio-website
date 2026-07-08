@@ -60,7 +60,7 @@ export const projects = [
   {
     title: "KPG Industrial",
     description:
-      "Designed to showcase the services and expertise of KPG Industrial, a trusted engineering and industrial solutions provider in Nepal, which offers high-quality LPG solutions, gas plant engineering, and machine maintenance services.",
+      "Designed to showcase the services and expertise of KPG Industrial, which offers high-quality LPG solutions, gas plant engineering, and machine maintenance services.",
     tags: ["React", "Next.js", "Postgres", "Node.js", "MongoDB"],
     image: "/kpg.png",
     type: "Website",
@@ -68,18 +68,31 @@ export const projects = [
   {
     title: "Z-Wallet",
     description: "The system enables users to top up credit, make purchases (e.g., digital games) with PIN/serial generation, and expose APIs for external websites to showcase and sell products with automatic credit deduction and usage-based billing",
-    tags: ["Node.js", "Postgres", "Nextjs" ,"Express", "E-sewa", "Khalti", "FonePay"],
+    tags: ["Node.js", "PostgresSQL", "Nextjs" ,"Express", "E-sewa", "Khalti", "FonePay"],
     image: "/digital-game-api.png",
     type: "Website",
   } , 
   {
     title: "ZAuth",
     description: "An npm package for authentication and authorization along with user management used in projects developed by ZLS.",
-    tags: ["Node.js", "Postgres", "Express", "TypeScript"],
+    tags: ["Node.js", "PostgresSQL", "Express", "TypeScript"],
     image: "/z-auth.png",
     type: "NPM Package",
+  }, 
+  {
+    title: "Travel With Saroj",
+    description: "A travel portfolio website for a tour guide that showcase the tour packages they offer.",
+    tags: ["React", "Next.js", "PostgresSQL", "Node.js", "Express"],
+    image: "/tws.png",
+    type: "Website",
+  },
+  {
+    title: "GrabLoco",
+    description: "A platform for finding exclusive local deals, coupons, and savings from vendors in local community.",
+    tags: ["React Native", "PostgresSQL", "Express", "Turborepo", "Next.js"],
+    image: "/grabloco.png",
+    type: "Mobile App + Dashboard Website",
   }
-
 ];
 
 export const skills = [
@@ -165,6 +178,16 @@ export const skills = [
         title: "MySQL",
         emoji: <MySqlIcon />,
         subtitle: "SQL Database",
+      },
+    ],
+  },
+  {
+    title: "Mobile",
+    children: [
+      {
+        title: "React Native",
+        emoji: <ReactIcon />,
+        subtitle: "Mobile Framework",
       },
     ],
   },
