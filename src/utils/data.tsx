@@ -176,27 +176,19 @@ export const skills = [
 
 export const experiences = [
   {
-    role: "Full-Stack Developer",
+    role: "Software Engineer",
     company: "ZLS (Zero Logic Space)",
-    period: "2023 — Present",
+    period: "2024 — Present",
     description:
       "Building web and cross-plaform mobile applications with Next.js, React Native, Node.js, and PostgreSQL. Led payment integrations (eSewa, Khalti, FonePay, Paytrail, Stripe) and shipped reusable auth packages used across client projects.",
     tags: ["Next.js", "Node.js", "PostgreSQL", "AWS" , "React Native"],
   },
   {
-    role: "Junior Developer",
+    role: "Frontend Developer",
     company: "ZLS(Zero Logic Space)",
-    period: "2022 — 2023",
+    period: "2023 — 2024",
     description:
       "Delivered responsive marketing sites and dashboards for clients across real estate, hospitality, and travel verticals.",
     tags: ["React", "TailwindCSS", "Express", "Next.js"],
-  },
-  {
-    role: "Frontend Developer",
-    company: "Early Career",
-    period: "2021 — 2022",
-    description:
-      "Built foundations in JavaScript, React, PHP, and database design while contributing to internal tooling.",
-    tags: ["JavaScript", "React", "PHP", "MySQL"],
   },
 ];
